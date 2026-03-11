@@ -14,7 +14,7 @@ except ImportError:
     BROTLI_AVAILABLE = False
     print("Brotli не установлен. Установите: pip install brotli")
 
-API_TOKEN = '8346561435:AAEo49fYvqZIXy04F7hDCOE1zuQILgmmIWA'
+API_TOKEN = 'Ваш токен для тг бота'
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher()
 
@@ -308,4 +308,5 @@ async def main():
 
 
 if __name__ == '__main__':
+
     asyncio.run(main())
